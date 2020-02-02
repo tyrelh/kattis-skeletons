@@ -16,7 +16,8 @@ function readLine() {
     return inputString[currentLine++];
 }
 function main() {
-
+    const values = readLine().split(" ");
+    const w = parseInt(values[0]);
 }
 
 //digit = parseInt(digit)
